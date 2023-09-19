@@ -1,0 +1,19 @@
+.frame-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1440px;
+  height: 317px;
+}
+.rectangle-root {
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1440px;
+  height: 317px;
+  overflow-y: auto;
+  cursor: pointer;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+}

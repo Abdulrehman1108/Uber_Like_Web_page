@@ -1,0 +1,61 @@
+.group-item,
+.signup {
+  position: absolute;
+  height: 33.25px;
+}
+.group-item {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-dimgray);
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lgi);
+  width: 86px;
+}
+.signup {
+  top: 8.75px;
+  left: 21px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 93px;
+}
+.rectangle-group {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 114px;
+  height: 42px;
+}
+.group-root {
+  position: relative;
+  width: 100%;
+  height: 42px;
+}
+.frame-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1440px;
+  height: 317px;
+}
+.rectangle-root {
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1440px;
+  height: 317px;
+  overflow-y: auto;
+  cursor: pointer;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+}

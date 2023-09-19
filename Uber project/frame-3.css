@@ -1,0 +1,47 @@
+.en,
+.group-child2 {
+  position: absolute;
+  height: 33.25px;
+}
+.group-child2 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lgi);
+  background-color: var(--color-dimgray);
+  width: 78px;
+}
+.en {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 8.75px;
+  left: 38px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 54px;
+}
+.iconsaxlinearglobal {
+  position: absolute;
+  top: 7.63px;
+  left: 19px;
+  width: 18.92px;
+  height: 18.92px;
+  overflow: hidden;
+}
+.group-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 92px;
+  height: 42px;
+}
+.frame-div {
+  position: relative;
+  width: 100%;
+  height: 42px;
+}

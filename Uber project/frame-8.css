@@ -1,0 +1,115 @@
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 196px;
+  height: 245px;
+}
+.home {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.drive-wrapper,
+.home,
+.home-wrapper,
+.ride-wrapper {
+  position: absolute;
+  left: 0;
+  width: 196px;
+  height: 40px;
+}
+.home,
+.home-wrapper {
+  top: 0;
+}
+.ride-wrapper {
+  top: 40px;
+}
+.drive-wrapper {
+  top: 80px;
+}
+.eat-wrapper {
+  top: 120px;
+}
+.eat-wrapper,
+.freight-wrapper,
+.restaurants-wrapper {
+  position: absolute;
+  left: 0;
+  width: 196px;
+  height: 40px;
+}
+.restaurants-wrapper {
+  top: 160px;
+}
+.freight-wrapper {
+  top: 200px;
+}
+.iconsaxlinearbuildings,
+.iconsaxlinearhome {
+  position: absolute;
+  width: 19px;
+  height: 18px;
+  overflow: hidden;
+}
+.iconsaxlinearbuildings {
+  top: 167px;
+  left: calc(50% - 88px);
+}
+.iconsaxlinearhome {
+  top: 11px;
+  left: 10px;
+}
+.iconsaxlinearreserve {
+  left: 10px;
+  height: 18px;
+  top: 131px;
+}
+.iconsaxlinearcar,
+.iconsaxlinearreserve,
+.iconsaxlinearthegraph,
+.iconsaxlineartruck {
+  position: absolute;
+  width: 19px;
+  overflow: hidden;
+}
+.iconsaxlineartruck {
+  top: 211px;
+  left: 8px;
+  height: 18px;
+}
+.iconsaxlinearcar {
+  left: 10px;
+}
+.iconsaxlinearthegraph {
+  top: 89px;
+  left: 10px;
+  height: 24px;
+}
+.iconsaxlinearcar {
+  top: 50px;
+  height: 18px;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 196px;
+  height: 245px;
+}
+.group-parent {
+  position: relative;
+  width: 196px;
+  height: 245px;
+  overflow-y: auto;
+  cursor: pointer;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}

@@ -1,0 +1,42 @@
+.group-child1,
+.saftey {
+  position: absolute;
+  height: 33.25px;
+}
+.group-child1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-dimgray);
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lgi);
+  width: 112px;
+}
+.saftey {
+  top: 7.88px;
+  left: 34px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 84px;
+}
+.rectangle-parent1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 118px;
+  height: 41.13px;
+}
+.group-container {
+  position: relative;
+  width: 100%;
+  height: 41.13px;
+}

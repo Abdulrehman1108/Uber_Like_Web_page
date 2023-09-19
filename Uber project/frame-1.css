@@ -1,0 +1,50 @@
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lgi);
+  background-color: var(--color-dimgray);
+  width: 124px;
+  height: 33.25px;
+}
+.vector-icon1 {
+  position: absolute;
+  height: 13.66%;
+  width: 9.62%;
+  top: 36.96%;
+  right: 21.73%;
+  bottom: 49.38%;
+  left: 68.65%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.company {
+  position: absolute;
+  top: 7px;
+  left: 21px;
+  font-size: var(--font-size-mini);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 109px;
+  height: 33.25px;
+}
+.rectangle-parent2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 130px;
+  height: 40.25px;
+}
+.group-frame {
+  position: relative;
+  width: 100%;
+  height: 40.25px;
+}

@@ -1,0 +1,14 @@
+.frame-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 196px;
+  height: 285px;
+}
+.rectangle-top {
+  position: relative;
+  width: 100%;
+  height: 285px;
+  overflow-y: auto;
+}

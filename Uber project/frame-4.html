@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./frame-4.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="group-wrapper" id="frameContainer">
+      <button class="group-button">
+        <button class="rectangle-button"></button
+        ><img class="group-icon" alt="" src="./public/group.svg" />
+        <div class="product">Product</div>
+      </button>
+    </div>
+
+    <div id="frameContainer" class="popup-overlay" style="display: none">
+      <div class="group-parent" id="popupframeContainer">
+        <div class="rectangle-parent">
+          <div class="group-child"></div>
+          <div class="home-wrapper"><div class="home">Home</div></div>
+          <div class="ride-wrapper"><div class="home">Ride</div></div>
+          <div class="drive-wrapper"><div class="home">Drive</div></div>
+          <div class="eat-wrapper"><div class="home">Eat</div></div>
+          <div class="restaurants-wrapper">
+            <div class="home">Restaurants</div>
+          </div>
+          <div class="freight-wrapper"><div class="home">Freight</div></div>
+          <img
+            class="iconsaxlinearbuildings"
+            alt=""
+            src="./public/iconsaxlinearbuildings.svg"
+          /><img
+            class="iconsaxlinearhome"
+            alt=""
+            src="./public/iconsaxlinearhome.svg"
+          /><img
+            class="iconsaxlinearreserve"
+            alt=""
+            src="./public/iconsaxlinearreserve.svg"
+          /><img
+            class="iconsaxlineartruck"
+            alt=""
+            src="./public/iconsaxlineartruck.svg"
+          /><img
+            class="iconsaxlinearthegraph"
+            alt=""
+            src="./public/iconsaxlinearthegraph.svg"
+          /><img
+            class="iconsaxlinearcar"
+            alt=""
+            src="./public/iconsaxlinearcar.svg"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var popupframeContainer = document.getElementById("popupframeContainer");
+      if (popupframeContainer) {
+        popupframeContainer.addEventListener("click", function (e) {
+          window.location.href = "./desktop-1.html";
+        });
+      }
+      
+      var frameContainer = document.getElementById("frameContainer");
+      if (frameContainer) {
+        frameContainer.addEventListener("click", function () {
+          var popup = document.getElementById("frameContainer");
+          if (!popup) return;
+          var popupStyle = popup.style;
+          if (popupStyle) {
+            popupStyle.display = "flex";
+            popupStyle.zIndex = 100;
+            popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+            popupStyle.alignItems = "center";
+            popupStyle.justifyContent = "center";
+          }
+          popup.setAttribute("closable", "");
+      
+          var onClick =
+            popup.onClick ||
+            function (e) {
+              if (e.target === popup && popup.hasAttribute("closable")) {
+                popupStyle.display = "none";
+              }
+            };
+          popup.addEventListener("click", onClick);
+        });
+      }
+      </script>
+  </body>
+</html>
